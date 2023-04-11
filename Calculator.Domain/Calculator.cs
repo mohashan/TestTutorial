@@ -9,7 +9,7 @@ namespace Calculator.Domain
 
         public bool IsPositive(int x) => x > 0;
 
-        public double Divide(int x,int y)
+        public double Divide(double x,double y)
         {
             return x / y;
         }
